@@ -1,0 +1,13 @@
+num = 9
+print("nIs num ==9? I predict True.")
+print(num == 10)
+print("Is num!= 9 ? I predict False.")
+print(num != 9)
+print("Is num > 1? I predict True.")
+print(num > 1)
+print("Is num < 9? I predict False.")
+print(num < 9)
+print("Is num <= 9? I predict True.")
+print(num <= 9)
+print("Is num >= 12 ? I predict False.")
+print(num >=12)

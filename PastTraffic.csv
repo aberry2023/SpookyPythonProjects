@@ -1,0 +1,14 @@
+TTL,DHCP Enabled?,Hops,Protocol,IP Routing Enabled?,WINS Proxy Enabled?,Normal?
+10,Y,4,TCP,N,N,Y
+0,N,0,TCP,Y,Y,Y
+7,N,6,TCP,N,N,N
+2,Y,1,ICMP,Y,N,Y
+20,N,2,UDP,Y,N,N
+0,N,0,UDP,Y,Y,Y
+5,Y,2,ICMP,N,Y,Y
+3,N,1,TCP,N,Y,Y
+15,Y,5,TCP,N,N,Y
+0,N,0,TCP,N,N,N
+1,N,1,UDP,Y,N,N
+4,Y,1,TCP,N,Y,Y
+0,N,0,UDP,Y,N,Y

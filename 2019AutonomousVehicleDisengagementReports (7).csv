@@ -1,0 +1,186 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>2019 Autonomous Vehicle Disengagement Reports | Kaggle</title>
+  <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+  <meta name="description" content="Explore Shortcomings of Current Generation Self-Driving Cars" />
+  <meta name="turbolinks-cache-control" content="no-cache" />
+    <meta name="keywords" content="automobiles and vehicles,law" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="WDPyJRKTUfjva6OENBcDgw==" type="text/javascript">
+    window["pageRequestStartTime"] = 1686811783932;
+    window["pageRequestEndTime"] = 1686811784085;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+  <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons&display=block"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons&display=block"
+    rel="stylesheet" media="print" id="async-google-font-1" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="stylesheet" media="print" id="async-google-font-2" />
+  <script nonce="WDPyJRKTUfjva6OENBcDgw==" type="text/javascript">
+    const styleSheetIds = ["async-google-font-1", "async-google-font-2"];
+    styleSheetIds.forEach(function (id) {
+      document.getElementById(id).addEventListener("load", function() {
+        this.media = "all";
+      });
+    });
+  </script>
+
+    <link rel="canonical" href="/datasets/art12400/2019-autonomous-vehicle-disengagement-reports" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/vendor.css?v=347bcfc883299a7a24f3" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=81f9b0bf40d37d37cc8f" />
+  
+    
+ 
+      <script nonce="WDPyJRKTUfjva6OENBcDgw==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="WDPyJRKTUfjva6OENBcDgw==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-T7QHS60L4Q', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets'
+        });
+    </script>
+    <script nonce="WDPyJRKTUfjva6OENBcDgw==" async src="https://www.googletagmanager.com/gtag/js?id=G-T7QHS60L4Q"></script>
+
+  
+    
+    <meta property="og:url" content="/datasets/art12400/2019-autonomous-vehicle-disengagement-reports" />
+    <meta property="og:title" content="2019 Autonomous Vehicle Disengagement Reports" />
+    <meta property="og:description" content="Explore Shortcomings of Current Generation Self-Driving Cars" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/538444/983987/df3ca1dfc09e27ede075c4488795278b/dataset-card.jpg?t=2020-03-03-12-04-42" />
+    <meta property="fb:app_id" content="2665027677054710" />
+
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kaggledatasets" />
+
+
+  <meta name="twitter:site" content="@Kaggle" /> 
+  
+    
+    <script nonce="WDPyJRKTUfjva6OENBcDgw==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"2019 Autonomous Vehicle Disengagement Reports","description":"### Context\n\nEach company which hold a permit to test self-driving vehicles in California must report disengagements to the state's Department of Motor Vehicles. The department defines a disengagement as \"a deactivation of the autonomous mode when a failure of the autonomous technology is detected or when the safe operation of the vehicle requires that the autonomous vehicle test driver disengage the autonomous mode and take immediate manual. control of the vehicle.\" This dataset of disengagement reports can highlight where the technology is still struggling. \n\n\n### Content\n\n\"The data files below contain the disengagements and autonomous miles traveled for permit holders who reported testing on California’s public roads between December 1, 2018 and November 30, 2019. Separate data files contain information on companies who received their permit in 2018 and are reporting testing activity in California for the first time (beyond the normal 12-month cycle).\" Each report includes:\n\nManufacturer\nPermit Number\nDATE\nVIN NUMBER\nVEHICLE IS CAPABLE OF OPERATING WITHOUT A DRIVER(Yes or No)\nDRIVER PRESENT(Yes or No)\nDISENGAGEMENT INITIATED BY(AV System, Test Driver, Remote Operator, or Passenger)\nDISENGAGEMENTLOCATION (Interstate, Freeway, Highway, Rural Road, Street, or Parking Facility)\nDESCRIPTION OF FACTS CAUSING DISENGAGEMENT\n\n### Acknowledgements\n\nOriginal data from State of California Department of Motor Vehicles. \nhttps://www.dmv.ca.gov/portal/dmv/detail/vr/autonomous/disengagement_report_2019\n\nBanner photo by Andrew Roberts on Unsplash\nhttps://unsplash.com/photos/6lqk_bNnw_c","url":"https://www.kaggle.com/art12400/2019-autonomous-vehicle-disengagement-reports","version":3,"keywords":["subject, science and technology, transportation, automobiles and vehicles","subject, people and society, law"],"license":{"@type":"CreativeWork","name":"U.S. Government Works","url":"https://www.usa.gov/government-works/"},"identifier":["538444"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Person","name":"Art124","url":"https://www.kaggle.com/art12400","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1429656-kg.jpg"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/datasets/art12400/2019-autonomous-vehicle-disengagement-reports/download?datasetVersionNumber=3","contentSize":"59516 bytes"}],"commentCount":0,"dateModified":"2020-03-03T12:48:26.82Z","discussionUrl":"https://www.kaggle.com/art12400/2019-autonomous-vehicle-disengagement-reports/discussion","alternateName":"Explore Shortcomings of Current Generation Self-Driving Cars","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/538444/983987/df3ca1dfc09e27ede075c4488795278b/dataset-card.jpg?t=2020-03-03-12-04-42","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":0},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":526},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":7795},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":19}]}</script>
+
+
+  
+    
+
+  
+    
+
+
+    <script nonce="WDPyJRKTUfjva6OENBcDgw==">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="WDPyJRKTUfjva6OENBcDgw==" src="https://apis.google.com/js/api.js" defer
+    async></script>
+  <script nonce="WDPyJRKTUfjva6OENBcDgw==" src="/static/assets/runtime.js?v=e052600a2bc2a54c81d4" data-turbolinks-track="reload"></script>
+  <script nonce="WDPyJRKTUfjva6OENBcDgw==" src="/static/assets/vendor.js?v=6f1e191acd85fb597315" data-turbolinks-track="reload"></script>
+  <script nonce="WDPyJRKTUfjva6OENBcDgw==" src="/static/assets/app.js?v=8df3db8d561d47f70375" data-turbolinks-track="reload"></script>
+    <script nonce="WDPyJRKTUfjva6OENBcDgw==" type="text/javascript">
+      window.kaggleStackdriverConfig = {
+        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        projectId: 'kaggle-161607',
+        service: 'web-fe',
+        version: 'ci',
+        userId: '0'
+      }
+    </script>
+</head>
+
+<body data-turbolinks="false">
+  <main>
+    
+
+
+
+
+
+<div id="site-container"></div>
+
+<div id="site-body" class="hide">
+    
+
+<div data-component-name="DatasetMaterialContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="WDPyJRKTUfjva6OENBcDgw==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"basics":{"datasetId":538444,"slug":"2019-autonomous-vehicle-disengagement-reports","title":"2019 Autonomous Vehicle Disengagement Reports","description":"### Context\n\nEach company which hold a permit to test self-driving vehicles in California must report disengagements to the state\u0027s Department of Motor Vehicles. The department defines a disengagement as \u0022a deactivation of the autonomous mode when a failure of the autonomous technology is detected or when the safe operation of the vehicle requires that the autonomous vehicle test driver disengage the autonomous mode and take immediate manual. control of the vehicle.\u0022 This dataset of disengagement reports can highlight where the technology is still struggling. \n\n\n### Content\n\n\u0022The data files below contain the disengagements and autonomous miles traveled for permit holders who reported testing on California\u2019s public roads between December 1, 2018 and November 30, 2019. Separate data files contain information on companies who received their permit in 2018 and are reporting testing activity in California for the first time (beyond the normal 12-month cycle).\u0022 Each report includes:\n\nManufacturer\nPermit Number\nDATE\nVIN NUMBER\nVEHICLE IS CAPABLE OF OPERATING WITHOUT A DRIVER(Yes or No)\nDRIVER PRESENT(Yes or No)\nDISENGAGEMENT INITIATED BY(AV System, Test Driver, Remote Operator, or Passenger)\nDISENGAGEMENTLOCATION (Interstate, Freeway, Highway, Rural Road, Street, or Parking Facility)\nDESCRIPTION OF FACTS CAUSING DISENGAGEMENT\n\n### Acknowledgements\n\nOriginal data from State of California Department of Motor Vehicles. \nhttps://www.dmv.ca.gov/portal/dmv/detail/vr/autonomous/disengagement_report_2019\n\nBanner photo by Andrew Roberts on Unsplash\nhttps://unsplash.com/photos/6lqk_bNnw_c","viewCount":7795,"downloadCount":526,"scriptCount":6,"owner":{"id":1429656,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1429656-kg.jpg","name":"Art124","profileUrl":"/art12400","slug":"art12400","userTier":"CONTRIBUTOR"},"license":{"id":18,"name":"U.S. Government Works","url":"https://www.usa.gov/government-works/"},"overview":"Explore Shortcomings of Current Generation Self-Driving Cars","collaboratorList":{"owner":{"userId":1429656,"profileUrl":"/art12400","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1429656-kg.jpg","name":"Art124","slug":"art12400","userTier":"CONTRIBUTOR","type":"OWNER"}},"coverImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/538444/983987/df3ca1dfc09e27ede075c4488795278b/dataset-cover.jpg?t=2020-03-03-12-04-42","data":{"totalSize":59516,"isFileset":true,"canDownload":true,"firestorePath":"JMh1vk6ra4IxkYF0lHXC/versions/8D2ee17Yzq4CCmRBUHLs","downloadUrl":"/datasets/art12400/art12400/download?datasetVersionNumber=3","versionId":1012508,"id":557092},"voteCount":19,"downloadUrl":"/datasets/art12400/2019-autonomous-vehicle-disengagement-reports/download?datasetVersionNumber=3","lastUpdateTime":"2020-03-03T12:48:26.820Z","datasetVersionNumber":3,"creatorDisplayName":"Art124","cardImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/538444/983987/df3ca1dfc09e27ede075c4488795278b/dataset-card.jpg?t=2020-03-03-12-04-42","categories":{"tags":[{"id":12402,"name":"automobiles and vehicles","fullPath":"subject \u003E science and technology \u003E transportation \u003E automobiles and vehicles","listingUrl":"/datasets?group=public\u0026tagids=12402","description":"The automobile tag is everything about cars. Analyze insurance rates or how far you can go on one gallon of petrol.","datasetCount":5988,"competitionCount":5,"notebookCount":1665,"tagUrl":"/tags/automobiles","displayName":"Automobiles and Vehicles"},{"id":11115,"name":"law","fullPath":"subject \u003E people and society \u003E law","listingUrl":"/datasets?group=public\u0026tagids=11115","description":"Law is a system of rules that are created and enforced through social or governmental institutions to regulate behavior.","datasetCount":5625,"notebookCount":266,"tagUrl":"/tags/law","displayName":"Law"}]},"datasetExternalUrl":"https://www.kaggle.com/datasets/art12400/2019-autonomous-vehicle-disengagement-reports","forumId":551940,"datasetVersionId":984061,"canCreateTasks":true,"moderationStatus":"PRIVATED_MODERATION_STATUS_NO_ABUSE","lastVersionNumber":3,"diffType":"VERSIONED"},"accessedViaHashLink":false});performance && performance.mark && performance.mark("DatasetMaterialContainer.componentCouldBootstrap");</script><script nonce="WDPyJRKTUfjva6OENBcDgw==" type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: ["Safe.js"],
+    });
+</script>
+<script type="text/javascript" nonce="WDPyJRKTUfjva6OENBcDgw==">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const useProdHosts = ["www.kaggle.com", "admin.kaggle.com"];
+    const subdomain = useProdHosts.includes(window.location.hostname) ? "www" : "staging";
+
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    lib.src = `https://${subdomain}.kaggleusercontent.com/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+
+
+
+</div>
+
+
+
+
+  </main>
+</body>
+
+</html>
